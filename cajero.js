@@ -84,7 +84,7 @@ function compatibilidad() //solo tomará multiplos positivos de 10 y distintos d
     }
      else if (dinero % 10 !== 0 && dinero > 0)
      {
-      resultado.innerHTML = "No aceptamos ese tipo de billetes"
+      resultado.innerHTML = "Tiene que ser multpli de 10";
      }
     else if (dinero < 0)
     {
